@@ -1,0 +1,3 @@
+create database userreg;
+
+create table user(id int(3) auto_increment primary key,name varchar(33),pass varchar(33),mail varchar(30),phone varchar(10));
